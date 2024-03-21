@@ -22,5 +22,9 @@
 
 var eqa =  prompt("Please enter an equation");
 var num = eqa.length
-for (var i=0; i<num; i++)
-if ()
+
+for (var i=0; i<num; i++){
+if(eqa.slice(i,i+1) === "+"||eqa.slice(i,i+1) === "-"||eqa.slice(i,i+1) === "*"||eqa.slice(i,i+1) === "/"){
+    alert("sign has found")
+}
+}
